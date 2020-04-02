@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { DivHome } from "../globalElemnet/globalElements";
 import ModalComponent from "../Organisms/ModalComponent";
 import { FaBeer } from 'react-icons/fa';
-import TableComponent from "../Molecules/custom-Table";
+import TableComponent from "../Molecules/customTable";
 
 
 
@@ -18,9 +18,8 @@ const TemplatesPage = () => {
 
     return (
         <DivHome>
-            <TableComponent/>
-            <FaBeer />
-            <button onClick={handlerOption}>Click</button>
+            <TableComponent  handlerOption={handlerOption}/>
+
             <ModalComponent
                 selectedOption={selectedOption}
                 handlerOption={handlerOption}

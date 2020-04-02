@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a89cae96-8eb8-45f6-95d1-4cc8e54796d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_helpers/apiService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_helpers/http-helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_helpers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Molecules/custom-Table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Organisms/globalStyles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Templates/templates-page-component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Molecules/customTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Molecules/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/page/AboutPage/about-page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/page/HomePage/home-page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task-Manger-react" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Molecules/customButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Molecules/customButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Molecules/custom-Table.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Organisms/ModalComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organisms/ModalComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Organisms/form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Organisms/form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Templates/templates-page-component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Templates/templates-page-component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/globalElemnet/globalElements.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/globalElemnet/globalElements.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,36 +29,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/Templates/templates-page-component.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+            <state relative-caret-position="18">
+              <caret line="1" column="14" selection-start-line="1" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/component/Molecules/custom-Table.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/Molecules/customTable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="308">
+              <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/react-table/index.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/testEffector.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/component/page/AboutPage/about-page.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="115">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,8 +62,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/globalElemnet/globalElements.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+            <state relative-caret-position="110">
+              <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+              <caret line="198" column="16" lean-forward="true" selection-start-line="198" selection-start-column="16" selection-end-line="198" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-router/esm/react-router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="672" column="9" selection-start-line="672" selection-start-column="9" selection-end-line="672" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,44 +93,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/Molecules/elements.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
+            <state relative-caret-position="349">
               <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/src/component/Molecules/data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="19" />
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/Organisms/ModalComponent.jsx">
+        <entry file="file://$PROJECT_DIR$/src/component/Molecules/customButton.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="61">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/Organisms/globalStyles.scss">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://F:/The Complete React Developer Course (w Hooks and Redux)/8. Styling React/r-09-09-styling-react-modal/src/styles/components/_modal.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="38" selection-end-line="38" />
+            <state relative-caret-position="252">
+              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,6 +144,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>createdAt</find>
+      <find>Remove</find>
+      <find>d</find>
+      <find>Ho</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,24 +175,30 @@
         <option value="$PROJECT_DIR$/src/_helpers/index.js" />
         <option value="$PROJECT_DIR$/src/_helpers/http-helper.js" />
         <option value="$PROJECT_DIR$/src/_helpers/apiService.js" />
-        <option value="$PROJECT_DIR$/src/component/globalElemnet/globalElements.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/component/Organisms/form.jsx" />
         <option value="$PROJECT_DIR$/src/component/Molecules/customButton.jsx" />
         <option value="$PROJECT_DIR$/src/component/Molecules/globalStyles.scss" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/component/Organisms/ModalComponent.jsx" />
         <option value="$PROJECT_DIR$/src/component/Organisms/globalStyles.scss" />
-        <option value="$PROJECT_DIR$/src/component/Templates/templates-page-component.jsx" />
+        <option value="$PROJECT_DIR$/src/test.js" />
+        <option value="$PROJECT_DIR$/src/component/Organisms/ModalComponent.jsx" />
+        <option value="$PROJECT_DIR$/src/component/Molecules/data.js" />
         <option value="$PROJECT_DIR$/src/component/Molecules/custom-Table.js" />
+        <option value="$PROJECT_DIR$/src/component/Templates/templates-page-component.jsx" />
+        <option value="$PROJECT_DIR$/src/component/page/HomePage/home-page.jsx" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/component/globalElemnet/globalElements.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/component/Molecules/customTable.js" />
+        <option value="$PROJECT_DIR$/src/component/page/AboutPage/about-page.jsx" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="315" />
+    <option name="y" value="16" />
     <option name="width" value="823" />
-    <option name="height" value="744" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -218,7 +237,15 @@
               <item name="task-manger" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="Organisms" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-manger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-manger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="AboutPage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task-manger" type="b2602c69:ProjectViewProjectNode" />
@@ -246,6 +273,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -280,21 +308,23 @@
       <workItem from="1585765388277" duration="4339000" />
       <workItem from="1585806578615" duration="4743000" />
       <workItem from="1585811577041" duration="22612000" />
-      <workItem from="1585837835164" duration="3732000" />
+      <workItem from="1585837835164" duration="4069000" />
+      <workItem from="1585849139887" duration="7519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35426000" />
+    <option name="totallyTimeSpent" value="43282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20666163" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20968963" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
@@ -317,9 +347,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/component/AddTodo.js" />
-    <entry file="file://$PROJECT_DIR$/src/component/Amount.js" />
-    <entry file="file://$PROJECT_DIR$/src/component/ClearButton.js" />
     <entry file="file://$PROJECT_DIR$/src/component/Credits.js" />
     <entry file="file://$PROJECT_DIR$/src/component/TodoItem.js" />
     <entry file="file://$PROJECT_DIR$/src/component/TodoList.js" />
@@ -329,13 +356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -373,16 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Molecules/dataPicker.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_helpers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -404,13 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/The Complete React Developer Course (w Hooks and Redux)/8. Styling React/r-09-09-styling-react-modal/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -423,43 +426,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/node-sass/bin/emcc" />
     <entry file="file://$PROJECT_DIR$/yarn-error.log" />
-    <entry file="file://$PROJECT_DIR$/src/component/Organisms/form.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Molecules/customButton.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/globalElemnet/globalElements.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Molecules/elements.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-table/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/testEffector.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="90">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -467,50 +439,223 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Organisms/ModalComponent.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/Organisms/globalStyles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
+        <state relative-caret-position="360">
           <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Templates/templates-page-component.jsx">
+    <entry file="file://F:/The Complete React Developer Course (w Hooks and Redux)/8. Styling React/r-09-09-styling-react-modal/src/styles/components/_modal.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        <state relative-caret-position="684">
+          <caret line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-table/index.js">
+    <entry file="file://$PROJECT_DIR$/src/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="64" column="6" lean-forward="true" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#905#930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Molecules/dataPicker.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-super-responsive-table/dist/SuperResponsiveTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-icons/all.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://F:/The Complete React Developer Course (w Hooks and Redux)/8. Styling React/r-09-09-styling-react-modal/src/styles/components/_modal.scss">
+    <entry file="file://$PROJECT_DIR$/node_modules/react-icons/index.esm.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-icons/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-icons/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-icons/tsconfig.commonjs.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-icons/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-icons/wi/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="38" selection-end-line="38" />
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-icons/wi/index.esm.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-icons/wi/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-icons/wi/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-icons/all.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-icons/ti/index.esm.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Organisms/ModalComponent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="90">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Molecules/custom-Table.js">
+    <entry file="file://$PROJECT_DIR$/src/store.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Organisms/form.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/page/HomePage/home-page.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Templates/templates-page-component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="14" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Molecules/elements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Molecules/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Molecules/customButton.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-router/esm/react-router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="672" column="9" selection-start-line="672" selection-start-column="9" selection-end-line="672" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/globalElemnet/globalElements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+          <caret line="198" column="16" lean-forward="true" selection-start-line="198" selection-start-column="16" selection-end-line="198" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Molecules/customTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/page/AboutPage/about-page.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
