@@ -13,17 +13,13 @@ import "react-dates/lib/css/_datepicker.css";
 const now = moment();
 
 
-const Form = () => {
+const Form = ({handlerOption}) => {
 
 
     const [taskName, settaskName] = useState('');
     const [Description, setDescription] = useState('');
     const [CreatedDate, setCreatedDate] = useState(now);
-    const [Deadline, setDeadline] = useState(now);
 
-    const onDataChange = (createdAt) => {
-        setCreatedDate(createdAt);
-    };
 
 
 
@@ -60,7 +56,9 @@ const Form = () => {
                 />
                 <br/>
                 <GridTwo>
-                    <CustomButton exit="red">Exit</CustomButton>
+                    <CustomButton
+                        handlerOption={handlerOption}
+                        exit="red">Exit</CustomButton>
                     <CustomButton save="green">Save</CustomButton>
                 </GridTwo>
 

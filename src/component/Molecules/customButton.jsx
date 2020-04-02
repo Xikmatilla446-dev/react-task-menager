@@ -4,9 +4,10 @@ import { Button } from "./elements";
 
 
 
-const CustomButton = ({children, save, exit}) =>(
+const CustomButton = ({handlerOption,children, save, exit}) =>(
 
     <Button
+        onClick={handlerOption}
         currentColor={save}
         currentColor={exit}
     >

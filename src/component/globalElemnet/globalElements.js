@@ -26,6 +26,22 @@ export const FormElement = styled.form`
 
 
 
+
+export const DivHome = styled.div`
+
+   $main-color: #fff;
+   
+   width: 100%;
+   height: auto;
+   top: 10px;
+   background: $main-color;
+  
+
+`;
+
+
+
+
 export const H1 = styled.h1`
 
    $sub-color: grey; 
