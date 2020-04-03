@@ -8,7 +8,7 @@ import 'react-dates/initialize';
 const now = moment();
 
 
-const DataPicker = ({value,lable,onDataChange, ...otherProps }) =>{
+const DataPicker = ({onDataChange, ...otherProps }) =>{
 
     const [calendarFocused, setcalendarFocused] = useState(false);
 
@@ -17,8 +17,8 @@ const DataPicker = ({value,lable,onDataChange, ...otherProps }) =>{
 
     return (
             <SingleDatePicker
-                date={value}
-                onDateChange={onDataChange}
+                date={now}
+                onDateChange={()=> onDataChange}
                 focused={calendarFocused}
                 onFocusChange={({ focused }) => setcalendarFocused(focused)}
                 numberOfMonths={1}

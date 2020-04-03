@@ -26,7 +26,7 @@ export const Input = styled.input`
       transform: scale(0.85);
     margin-left: 10px;
     margin-top: -90px;
-    font-size: .9rem;
+    font-size: 10px;
     }
 
 
@@ -45,7 +45,7 @@ export const Label = styled.label`
      ${(props) => props.prop && css`
     margin-left: 10px;
     margin-top: -90px;
-    font-size: .9rem;
+    font-size: 12px;
   
   `}
  
@@ -53,7 +53,7 @@ export const Label = styled.label`
    
    
     pointer-events: none;
-    font-size: 1rem;
+    font-size: 12px;
     transition: all 0.1s;
     margin-left: 5px;
     

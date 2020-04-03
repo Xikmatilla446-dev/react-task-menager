@@ -1,14 +1,16 @@
-import React, {Component} from 'react';
+import React, {useEffect} from 'react';
 import {withRouter} from "react-router-dom";
+import firebase from '../../Firebase';
 
 
-import data from './data';
+
+
 
 import { FaTrash, FaEdit,FaEye, FaAddressBook} from 'react-icons/fa';
 
 import {ID, Tr2, Table2, Thead2, Tbody2, Th2, Td2, DivIcon, Hover, Button} from "../globalElemnet/globalElements";
 
-const TableComponent = ({handlerOption, history}) => {
+const TableComponent = ({dataItem,handlerOption, history}) => {
 
 
     return (
@@ -24,12 +26,14 @@ const TableComponent = ({handlerOption, history}) => {
                     </Tr2>
                 </Thead2>
                 <Tbody2>
-                    {data.map((item, index) => (
+                    {dataItem.map((item, index) => (
                         <Tr2 key={index}>
                             <ID>{index + 1}</ID>
-                            <Td2>{item.title}</Td2>
-                            <Td2>{item.user}</Td2>
-                            <Td2>{item.user}</Td2>
+                            <Td2>{item.taskName}</Td2>
+                            <Td2>{item.Description}</Td2>
+                            <Td2>{item.CreatedDate}</Td2>
+
+                            <React.Fragment>
                             <DivIcon>
                                 <Hover><FaEdit onClick={handlerOption}/></Hover>
                                 <Hover><FaTrash onClick={handlerOption} /></Hover>
@@ -39,6 +43,7 @@ const TableComponent = ({handlerOption, history}) => {
 
                                 /></Hover>
                             </DivIcon>
+                            </React.Fragment>
                         </Tr2>
                     ))}
                 </Tbody2>

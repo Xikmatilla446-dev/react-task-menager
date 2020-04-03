@@ -4,10 +4,29 @@ import CustomButton from '../Molecules/customButton';
 
 import { FormElement, GridTwo } from "../globalElemnet/globalElements";
 import DataPicker from "../Molecules/dataPicker";
+import {handleSubmitData, fetchData} from "../../_helpers/apiService";
 
 import moment from 'moment';
 import 'react-dates/initialize';
 import "react-dates/lib/css/_datepicker.css";
+import {createEffect, createStore} from 'effector'
+import {createComponent} from 'effector-react'
+
+const asyncActionFx = createEffect('your async action')
+
+asyncActionFx.use((payload) => handleSubmitData(payload))
+
+const current = createStore(null).on(
+    asyncActionFx.done,
+    (state, {result}) => {
+        debugger
+        return result
+    },)
+
+
+const CurrentResult = createComponent(current, (props, user) =>
+    user ? <div>Loading ...(<p>yes</p>)</div> : <div>Laoding feel</div>,
+)
 
 
 const now = moment();
@@ -21,12 +40,41 @@ const Form = ({handlerOption}) => {
     const [CreatedDate, setCreatedDate] = useState(now);
 
 
+    const handleSubmit = (event) => {
+        event.preventDefault();
+
+        console.log(CreatedDate._d)
+        debugger
+        const data = {
+            taskName: taskName,
+            Description:Description,
+            CreatedDate:CreatedDate._d
+        };
+
+
+        debugger
+        asyncActionFx(data);
+
+        console.log(current.getState());
+        debugger
+
+
+
+
+        setTimeout(()=> {
+            handlerOption();
+
+        },5000)
+
+    };
+
+
 
 
 
     return(
 
-            <FormElement>
+            <FormElement onSubmit={handleSubmit}>
                 <FormInput
                     value={taskName}
                     name="taskName"
@@ -48,9 +96,9 @@ const Form = ({handlerOption}) => {
 
                 <DataPicker
                     value={CreatedDate}
-                    name="CreatedDate"
-                    onChange={(createdAt) => setCreatedDate(createdAt)}
-                    lable="CreatedDate"
+                    onChange={(createdAt) =>
+
+                    setCreatedDate(createdAt.format())}
                     type="date"
                     required
                 />

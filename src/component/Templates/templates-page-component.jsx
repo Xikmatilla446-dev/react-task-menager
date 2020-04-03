@@ -1,13 +1,38 @@
-import React, {useState} from 'react';
+import React, {useState,useEffect} from 'react';
 import { DivHome } from "../globalElemnet/globalElements";
 import ModalComponent from "../Organisms/ModalComponent";
-import { FaBeer } from 'react-icons/fa';
 import TableComponent from "../Molecules/customTable";
+
+
+import {createEffect, createStore} from 'effector'
+import {createComponent} from 'effector-react'
+import {fetchData} from "../../_helpers/apiService";
+
+
+const asyncActionFx = createEffect('your async action')
+
+asyncActionFx.use(() => fetchData())
+
+const currentUser = createStore(null).on(
+    asyncActionFx.done,
+    (state, {result}) => {
+        debugger
+        return result
+    },)
+
+
+
 
 
 
 const TemplatesPage = () => {
 
+
+    useEffect(()=> {
+
+        asyncActionFx();
+
+        },[])
 
     const [selectedOption, setselectedOption] = useState(false);
 
@@ -16,9 +41,16 @@ const TemplatesPage = () => {
         setselectedOption(!selectedOption)
     };
 
+
+    const CurrentUser = createComponent(currentUser, (props, dataItem) =>
+        dataItem ? <TableComponent dataItem={dataItem}  handlerOption={handlerOption}/> : <div>Loading</div>,
+    );
+
     return (
         <DivHome>
-            <TableComponent  handlerOption={handlerOption}/>
+
+
+            <CurrentUser/>
 
             <ModalComponent
                 selectedOption={selectedOption}
