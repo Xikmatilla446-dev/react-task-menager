@@ -7,6 +7,7 @@ import TableComponent from "../Molecules/customTable";
 import {createEffect, createStore} from 'effector'
 import {createComponent} from 'effector-react'
 import {fetchData} from "../../_helpers/apiService";
+import Spinner from "../Molecules/spinner";
 
 
 const asyncActionFx = createEffect('your async action')
@@ -25,7 +26,7 @@ const currentUser = createStore(null).on(
 
 
 
-const TemplatesPage = () => {
+const TemplatesPage = ({id}) => {
 
 
     useEffect(()=> {
@@ -43,7 +44,7 @@ const TemplatesPage = () => {
 
 
     const CurrentUser = createComponent(currentUser, (props, dataItem) =>
-        dataItem ? <TableComponent dataItem={dataItem}  handlerOption={handlerOption}/> : <div>Loading</div>,
+        dataItem ? <TableComponent id={id} dataItem={dataItem}  handlerOption={handlerOption}/> : <Spinner/>,
     );
 
     return (
